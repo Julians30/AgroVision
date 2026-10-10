@@ -69,6 +69,7 @@ notebooks/
     libro/      NB_LIBRO_00 a NB_LIBRO_12: figuras y experimentos de cada capítulo
     palma/      NB00 a NB10: descarga, auditoría, partición, entrenamiento y evaluación
     pollos/     NB00 a NB08: descarga, auditoría, entrenamiento, conteo, seguimiento y zonas
+guiones/        cálculos del capítulo 11 (cap11_indicadores.py)
 resultados/     valores_capNN.json y tablas de cada experimento
 modelos/        instrucciones de descarga de los pesos entrenados
 docs/           guía de ejecución, datos y licencias, fichas de modelo
@@ -83,13 +84,13 @@ CITATION.cff    metadatos de cita
 | 2. Fundamentos de la imagen digital | Píxel, espacios de color, histograma | NB_LIBRO_01 |
 | 3. Calidad y preprocesamiento | Degradaciones, filtros, métricas de calidad | NB_LIBRO_02 |
 | 4. Segmentación y medición clásica | Umbrales, morfología, contornos, conteo clásico | NB_LIBRO_03, NB_LIBRO_04 |
-| 5. Construir un dataset confiable | Auditoría, duplicados, partición sin fuga | NB_LIBRO_06, NB_LIBRO_07 |
+| 5. Construir un conjunto de datos confiable | Auditoría, duplicados, partición sin fuga | NB_LIBRO_06, NB_LIBRO_07 |
 | 6. Aprendizaje profundo para visión | Redes convolucionales, transferencia, métricas | NB_LIBRO_05, NB_LIBRO_08 |
 | 7. Caso palma africana | Clasificación en cinco estados | NB_LIBRO_09 |
 | 8. Caso avícola | Detección y conteo | NB_LIBRO_10 |
 | 9. Del fotograma al comportamiento | Seguimiento, movimiento y zonas | NB_LIBRO_11 |
 | 10. ¿Se puede confiar en el modelo? | Grad-CAM, robustez, comparación de modelos | NB_LIBRO_12 |
-| 11. Del resultado a la decisión | Indicadores y revisión manual | NB_LIBRO_12 (predicciones) |
+| 11. Del resultado a la decisión | Indicadores y revisión manual | `guiones/cap11_indicadores.py`, sobre las predicciones de NB_LIBRO_12 |
 
 Los notebooks de `palma/` y `pollos/` producen los modelos y las tablas de los que parten los notebooks del libro, y deben ejecutarse antes, en orden numérico.
 
