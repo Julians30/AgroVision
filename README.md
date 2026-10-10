@@ -2,7 +2,7 @@
 
 **Material complementario y paquete de reproducibilidad** del libro *AgroVisión: del píxel a la decisión. Procesamiento digital de imágenes y visión artificial aplicada a la producción agropecuaria*.
 
-**Autor:** Julian Coronel Reyes  
+**Autor:** Julián Coronel Reyes  
 Carrera de Agropecuaria, Facultad de Ciencias Agropecuarias, Universidad Técnica de Machala (Ecuador)  
 Correspondencia: [jcoronel1@utmachala.edu.ec](mailto:jcoronel1@utmachala.edu.ec)  
 
