@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Si usa este material, cítelo como se indica."
+title: "AgroVisión: del píxel a la decisión. Material complementario"
+type: software
+authors:
+  - family-names: "PENDIENTE"
+    given-names: "PENDIENTE"
+repository-code: "https://github.com/Julians30/AgroVision"
+license: AGPL-3.0-or-later
+version: "1.0.0"
+date-released: "2026-10-10"

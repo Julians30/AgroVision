@@ -1,0 +1,202 @@
+{
+  "n_imagenes": 452,
+  "aves_anotadas": 73857,
+  "imagenes_con_mas_de_100_aves": 231,
+  "imagenes_con_mas_de_300_aves": 67,
+  "fraccion_de_aves_dentro_del_limite": {
+    "100": 0.4934,
+    "300": 0.9221,
+    "1000": 1.0
+  },
+  "detector_perfecto": {
+    "map_torchmetrics": 0.49504950495049505,
+    "mAP50_95_max100": 0.49504950495049505,
+    "mAP50_max100": 0.49504950495049505,
+    "mAP75_max100": 0.49504950495049505,
+    "AR_max100": 0.49344002599618186,
+    "mAP50_95_max300": 0.9207920792079208,
+    "mAP50_max300": 0.9207920792079208,
+    "mAP75_max300": 0.9207920792079208,
+    "AR_max300": 0.9220520736016896,
+    "mAP50_95_max1000": 1.0,
+    "mAP50_max1000": 1.0,
+    "mAP75_max1000": 1.0,
+    "AR_max1000": 1.0
+  },
+  "parametros_inferencia": {
+    "imgsz": 960,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 1000,
+    "umbral_conteo": 0.25
+  },
+  "modelos": {
+    "YOLO11s": {
+      "modelo": "YOLO11s",
+      "map_torchmetrics": 0.39976442696459485,
+      "mAP50_95_max100": 0.39976442696459485,
+      "mAP50_max100": 0.4839071676233698,
+      "mAP75_max100": 0.45963952335611685,
+      "AR_max100": 0.4177491639248819,
+      "mAP50_95_max300": 0.7041557075676509,
+      "mAP50_max300": 0.8953316824738519,
+      "mAP75_max300": 0.8114771753884122,
+      "AR_max300": 0.7453443817106029,
+      "mAP50_95_max1000": 0.7523352969005379,
+      "mAP50_max1000": 0.9749629796907984,
+      "mAP75_max1000": 0.8619659325991178,
+      "AR_max1000": 0.8001340428124619,
+      "count_mae": 13.867256637168142,
+      "count_bias": 13.212389380530974,
+      "ms_por_imagen": 37.58520221902646,
+      "detecciones_por_imagen_media": 399.7765486725664
+    },
+    "YOLO26s": {
+      "modelo": "YOLO26s",
+      "map_torchmetrics": 0.40071825476820067,
+      "mAP50_95_max100": 0.40071825476820067,
+      "mAP50_max100": 0.48397328880165064,
+      "mAP75_max100": 0.45941074667855025,
+      "AR_max100": 0.4188391080060116,
+      "mAP50_95_max300": 0.7047965815616,
+      "mAP50_max300": 0.8957020955196807,
+      "mAP75_max300": 0.8115752832996137,
+      "AR_max300": 0.7482960315203705,
+      "mAP50_95_max1000": 0.7537096257908802,
+      "mAP50_max1000": 0.9771983229896628,
+      "mAP75_max1000": 0.8630701564569294,
+      "AR_max1000": 0.8030355958135316,
+      "count_mae": 14.586283185840708,
+      "count_bias": 14.16150442477876,
+      "ms_por_imagen": 20.97192430752245,
+      "detecciones_por_imagen_media": 426.7765486725664
+    },
+    "Faster R-CNN": {
+      "modelo": "Faster R-CNN",
+      "map_torchmetrics": 0.3313952909638419,
+      "mAP50_95_max100": 0.3313952909638419,
+      "mAP50_max100": 0.4582767427559259,
+      "mAP75_max100": 0.3996165970586064,
+      "AR_max100": 0.3537958487347171,
+      "mAP50_95_max300": 0.552812205692431,
+      "mAP50_max300": 0.8091059775303796,
+      "mAP75_max300": 0.6473007889280552,
+      "AR_max300": 0.6068673246950188,
+      "mAP50_95_max1000": 0.5618806614194377,
+      "mAP50_max1000": 0.8260804306446305,
+      "mAP75_max1000": 0.6548458518297934,
+      "AR_max1000": 0.615723628092124,
+      "count_mae": 41.586283185840706,
+      "count_bias": 5.710176991150442,
+      "ms_por_imagen": 202.41632362610665,
+      "detecciones_por_imagen_media": 209.5929203539823
+    }
+  },
+  "valores_NB08": {
+    "YOLO11s": {
+      "mAP50_95": 0.3998,
+      "mAP50": 0.975,
+      "mAP75": 0.862,
+      "count_mae": 13.867
+    },
+    "YOLO26s": {
+      "mAP50_95": 0.4007,
+      "mAP50": 0.9772,
+      "mAP75": 0.8632,
+      "count_mae": 14.624
+    },
+    "Faster R-CNN": {
+      "mAP50_95": 0.3314,
+      "mAP50": 0.8261,
+      "mAP75": 0.6549,
+      "count_mae": 41.611
+    }
+  },
+  "validacion_ultralytics": {
+    "YOLO11s_max300": {
+      "precision": 0.9484073933626529,
+      "recall": 0.9529644322289769,
+      "mAP50": 0.9764698167603311,
+      "mAP75": 0.8684900743250947,
+      "mAP50_95": 0.7559916240162768
+    },
+    "YOLO11s_max1000": {
+      "precision": 0.9485897393006069,
+      "recall": 0.9528090684411697,
+      "mAP50": 0.9820326414613331,
+      "mAP75": 0.8684821502590481,
+      "mAP50_95": 0.7565603228747279
+    },
+    "YOLO26s_max300": {
+      "precision": 0.9509481367766347,
+      "recall": 0.9525436103765457,
+      "mAP50": 0.9818229181330432,
+      "mAP75": 0.8682804925180487,
+      "mAP50_95": 0.7573726268856026
+    },
+    "YOLO26s_max1000": {
+      "precision": 0.9509481367766347,
+      "recall": 0.9525436103765457,
+      "mAP50": 0.9831663007113759,
+      "mAP75": 0.8682874242689977,
+      "mAP50_95": 0.758026866006454
+    }
+  },
+  "eam_conteo_por_semana": {
+    "1": {
+      "conteo_YOLO11s": 10.2,
+      "conteo_YOLO26s": 13.8,
+      "conteo_Faster_RCNN": 29.3,
+      "imagenes": 63
+    },
+    "2": {
+      "conteo_YOLO11s": 24.5,
+      "conteo_YOLO26s": 26.5,
+      "conteo_Faster_RCNN": 48.8,
+      "imagenes": 79
+    },
+    "3": {
+      "conteo_YOLO11s": 14.4,
+      "conteo_YOLO26s": 15.0,
+      "conteo_Faster_RCNN": 41.5,
+      "imagenes": 91
+    },
+    "4": {
+      "conteo_YOLO11s": 12.4,
+      "conteo_YOLO26s": 11.7,
+      "conteo_Faster_RCNN": 34.4,
+      "imagenes": 127
+    },
+    "5": {
+      "conteo_YOLO11s": 3.2,
+      "conteo_YOLO26s": 2.6,
+      "conteo_Faster_RCNN": 61.4,
+      "imagenes": 18
+    },
+    "6": {
+      "conteo_YOLO11s": 10.0,
+      "conteo_YOLO26s": 9.8,
+      "conteo_Faster_RCNN": 52.0,
+      "imagenes": 74
+    }
+  },
+  "eam_conteo_por_galpon": {
+    "C": {
+      "conteo_YOLO11s": 21.8,
+      "conteo_YOLO26s": 22.6,
+      "conteo_Faster_RCNN": 44.2,
+      "imagenes": 268
+    },
+    "P": {
+      "conteo_YOLO11s": 2.3,
+      "conteo_YOLO26s": 2.9,
+      "conteo_Faster_RCNN": 37.7,
+      "imagenes": 184
+    }
+  },
+  "entorno": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "gpu": "Tesla T4"
+  }
+}

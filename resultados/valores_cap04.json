@@ -1,0 +1,626 @@
+{
+  "imagen_ejemplo_palma": {
+    "archivo": "5b07a46b9b5b_TrainRipe_137.jpg",
+    "ancho": 757,
+    "alto": 568
+  },
+  "pio_inventario": {
+    "n_val": 452,
+    "n_train": 1035,
+    "n_calibracion": 139,
+    "aves_por_imagen_val": {
+      "media": 163.4,
+      "mediana": 115.0,
+      "min": 3,
+      "max": 594
+    },
+    "val_por_semana": {
+      "1": {
+        "imagenes": 63,
+        "aves_media": 123.2
+      },
+      "2": {
+        "imagenes": 79,
+        "aves_media": 254.6
+      },
+      "3": {
+        "imagenes": 91,
+        "aves_media": 209.6
+      },
+      "4": {
+        "imagenes": 127,
+        "aves_media": 143.3
+      },
+      "5": {
+        "imagenes": 18,
+        "aves_media": 63.9
+      },
+      "6": {
+        "imagenes": 74,
+        "aves_media": 102.3
+      }
+    }
+  },
+  "figura_4_1": {
+    "imagen": "C-W2-V0024.jpg",
+    "aves_anotadas": 114,
+    "umbral_otsu": 121,
+    "umbral_otsu_imagen_oscurecida": 72,
+    "pct_primer_plano": {
+      "fijo_127": 36.0,
+      "otsu": 43.2,
+      "adaptativo": 22.9,
+      "fijo_127_oscurecida": 0.6,
+      "otsu_oscurecida": 43.2
+    }
+  },
+  "figura_4_2_4_3": {
+    "fondo_Lab": [
+      38.9,
+      0.3,
+      -1.5
+    ],
+    "umbral_dE": 27.1,
+    "pasos": {
+      "Máscara inicial": {
+        "pct_blanco": 22.2,
+        "componentes": 113
+      },
+      "Erosión (9 × 9)": {
+        "pct_blanco": 9.7,
+        "componentes": 53
+      },
+      "Dilatación (9 × 9)": {
+        "pct_blanco": 37.5,
+        "componentes": 62
+      },
+      "Apertura (7 × 7)": {
+        "pct_blanco": 20.4,
+        "componentes": 51
+      },
+      "Cierre de la apertura (21 × 21)": {
+        "pct_blanco": 27.0,
+        "componentes": 21
+      },
+      "Componente mayor, sin huecos": {
+        "pct_blanco": 26.9,
+        "componentes": 1
+      }
+    },
+    "medidas_ejemplo": {
+      "area_px": 52224.5,
+      "area_pct": 26.6,
+      "perimetro_px": 1449.4,
+      "circularidad": 0.312,
+      "diametro_equivalente_px": 257.9,
+      "solidez": 0.763,
+      "cx": 331.4,
+      "cy": 207.7,
+      "caja_x": 133.0,
+      "caja_y": 58.0,
+      "caja_ancho": 379.0,
+      "caja_alto": 276.0,
+      "relacion_aspecto": 1.4,
+      "pct_anillo_cubierto": 0.5,
+      "L_mascara": 54.1,
+      "a_mascara": 14.2,
+      "b_mascara": 17.7
+    },
+    "dimension_imagen": "512 × 384"
+  },
+  "segmentacion_palma": {
+    "parametros": {
+      "lado_mayor_px": 512,
+      "anillo": 0.06,
+      "apertura": 7,
+      "cierre": 21
+    },
+    "n_imagenes": 452,
+    "plausibles": 324,
+    "pct_plausibles": 71.7,
+    "motivos_descarte": {
+      "sin_mascara": 0,
+      "area_menor_5pct": 4,
+      "area_mayor_75pct": 0,
+      "toca_el_borde": 124
+    },
+    "por_clase": {
+      "Inmaduro": {
+        "imagenes": 157.0,
+        "plausibles": 93.0,
+        "area_pct": 35.56,
+        "circularidad": 0.26,
+        "solidez": 0.76,
+        "relacion_aspecto": 1.31,
+        "pct_plausibles": 59.24
+      },
+      "Maduro": {
+        "imagenes": 197.0,
+        "plausibles": 153.0,
+        "area_pct": 26.05,
+        "circularidad": 0.39,
+        "solidez": 0.82,
+        "relacion_aspecto": 1.23,
+        "pct_plausibles": 77.66
+      },
+      "Sobremaduro": {
+        "imagenes": 72.0,
+        "plausibles": 60.0,
+        "area_pct": 26.69,
+        "circularidad": 0.37,
+        "solidez": 0.81,
+        "relacion_aspecto": 1.2,
+        "pct_plausibles": 83.33
+      },
+      "Dañado": {
+        "imagenes": 15.0,
+        "plausibles": 9.0,
+        "area_pct": 42.18,
+        "circularidad": 0.2,
+        "solidez": 0.71,
+        "relacion_aspecto": 1.32,
+        "pct_plausibles": 60.0
+      },
+      "Vacío": {
+        "imagenes": 11.0,
+        "plausibles": 9.0,
+        "area_pct": 45.1,
+        "circularidad": 0.3,
+        "solidez": 0.81,
+        "relacion_aspecto": 1.34,
+        "pct_plausibles": 81.82
+      }
+    },
+    "umbral_dE_mediana": 25.4,
+    "color_en_mascara": {
+      "Inmaduro": {
+        "L": "45.0 ± 13.9",
+        "a": "1.9 ± 6.1",
+        "b": "9.0 ± 8.5"
+      },
+      "Maduro": {
+        "L": "49.4 ± 8.5",
+        "a": "12.5 ± 7.4",
+        "b": "16.6 ± 7.4"
+      },
+      "Sobremaduro": {
+        "L": "50.2 ± 7.0",
+        "a": "9.5 ± 3.7",
+        "b": "18.2 ± 5.5"
+      },
+      "Dañado": {
+        "L": "51.9 ± 4.4",
+        "a": "-0.1 ± 5.0",
+        "b": "7.9 ± 4.3"
+      },
+      "Vacío": {
+        "L": "49.4 ± 7.8",
+        "a": "5.9 ± 2.2",
+        "b": "12.6 ± 4.3"
+      }
+    },
+    "linea_base_region_central_cap2": {
+      "metodo": "centroide de color CIELAB más cercano (entrenamiento → prueba)",
+      "n_prueba": 70,
+      "exactitud": 0.4,
+      "f1_macro": 0.319,
+      "f1_por_clase": {
+        "Inmaduro": 0.634,
+        "Maduro": 0.44,
+        "Sobremaduro": 0.091,
+        "Dañado": 0.429,
+        "Vacío": 0.0
+      },
+      "referencia_modelo_YOLO11m_f1_macro_prueba": 0.846
+    },
+    "linea_base_color_en_mascara": {
+      "n_prueba": 70,
+      "exactitud": 0.5,
+      "f1_macro": 0.376,
+      "f1_por_clase": {
+        "Inmaduro": 0.619,
+        "Maduro": 0.56,
+        "Sobremaduro": 0.5,
+        "Dañado": 0.2,
+        "Vacío": 0.0
+      }
+    },
+    "linea_base_color_en_mascara_solo_plausibles": {
+      "n_prueba": 52,
+      "exactitud": 0.5,
+      "f1_macro": 0.379,
+      "f1_por_clase": {
+        "Inmaduro": 0.538,
+        "Maduro": 0.622,
+        "Sobremaduro": 0.4,
+        "Dañado": 0.333,
+        "Vacío": 0.0
+      }
+    },
+    "linea_base_color_y_forma": {
+      "n_prueba": 70,
+      "exactitud": 0.529,
+      "f1_macro": 0.336,
+      "f1_por_clase": {
+        "Inmaduro": 0.571,
+        "Maduro": 0.69,
+        "Sobremaduro": 0.417,
+        "Dañado": 0.0,
+        "Vacío": 0.0
+      }
+    }
+  },
+  "figura_4_4": {
+    "Inmaduro": {
+      "tipica": "0ea46587891b_TrainUnripe_98.jpg",
+      "dudosa": "e4c29042c42c_TrainUnripe_75.jpg",
+      "dudosa_es_no_plausible": true
+    },
+    "Maduro": {
+      "tipica": "7b3bef57a229_TestRipe_21.jpg",
+      "dudosa": "5f93a7064f1e_TrainRipe_146.jpg",
+      "dudosa_es_no_plausible": true
+    },
+    "Sobremaduro": {
+      "tipica": "9785d649b235_TrainOverripe_32.jpg",
+      "dudosa": "a06b39868480_TrainOverripe_24.jpg",
+      "dudosa_es_no_plausible": true
+    },
+    "Dañado": {
+      "tipica": "e00358965931_TrainDamaged_10.jpg",
+      "dudosa": "c062abf02cba_TrainDamaged_1.jpg",
+      "dudosa_es_no_plausible": true
+    },
+    "Vacío": {
+      "tipica": "1b8787bc2c4c_TrainEmpty_10.jpg",
+      "dudosa": "ffd186f8fd2e_TestEmpty_2.jpg",
+      "dudosa_es_no_plausible": true
+    }
+  },
+  "conteo_clasico": {
+    "parametros": {
+      "ancho_px": 960,
+      "saturacion_max": 90,
+      "area_min_px": 20,
+      "apertura": 5,
+      "imagenes_calibracion_por_semana": 20
+    },
+    "area_por_ave_px2_por_semana": {
+      "0": 691.3,
+      "1": 474.5,
+      "2": 509.7,
+      "3": 549.6,
+      "4": 1121.3,
+      "5": 2227.8,
+      "6": 1471.8
+    },
+    "n_val": 452,
+    "aves_media_val": 163.4,
+    "error_global": {
+      "A · Componentes": {
+        "MAE": 89.2,
+        "sesgo": -8.0,
+        "MAPE_pct": 116.9,
+        "RMSE": 108.8,
+        "r": 0.513
+      },
+      "B · Área de referencia": {
+        "MAE": 1385.1,
+        "sesgo": 1385.1,
+        "MAPE_pct": 2759.1,
+        "RMSE": 1842.9,
+        "r": -0.337
+      },
+      "C · Área calibrada": {
+        "MAE": 102.8,
+        "sesgo": 41.6,
+        "MAPE_pct": 146.0,
+        "RMSE": 138.2,
+        "r": 0.374
+      }
+    },
+    "error_por_semana": {
+      "1": {
+        "A · Componentes": {
+          "MAE": 58.2,
+          "sesgo": 12.5,
+          "MAPE_pct": 57.0,
+          "RMSE": 81.1,
+          "r": 0.662
+        },
+        "B · Área de referencia": {
+          "MAE": 1264.9,
+          "sesgo": 1264.9,
+          "MAPE_pct": 1446.4,
+          "RMSE": 1593.5,
+          "r": 0.232
+        },
+        "C · Área calibrada": {
+          "MAE": 145.2,
+          "sesgo": 144.8,
+          "MAPE_pct": 169.9,
+          "RMSE": 197.5,
+          "r": 0.537
+        },
+        "imagenes": 63,
+        "aves_media": 123.2
+      },
+      "2": {
+        "A · Componentes": {
+          "MAE": 109.7,
+          "sesgo": -10.9,
+          "MAPE_pct": 73.9,
+          "RMSE": 137.8,
+          "r": 0.522
+        },
+        "B · Área de referencia": {
+          "MAE": 1386.9,
+          "sesgo": 1386.9,
+          "MAPE_pct": 1246.3,
+          "RMSE": 1849.3,
+          "r": -0.392
+        },
+        "C · Área calibrada": {
+          "MAE": 142.9,
+          "sesgo": 28.8,
+          "MAPE_pct": 109.1,
+          "RMSE": 173.6,
+          "r": 0.179
+        },
+        "imagenes": 79,
+        "aves_media": 254.6
+      },
+      "3": {
+        "A · Componentes": {
+          "MAE": 99.4,
+          "sesgo": -46.1,
+          "MAPE_pct": 86.6,
+          "RMSE": 116.5,
+          "r": 0.376
+        },
+        "B · Área de referencia": {
+          "MAE": 1078.6,
+          "sesgo": 1078.6,
+          "MAPE_pct": 1583.8,
+          "RMSE": 1573.8,
+          "r": -0.457
+        },
+        "C · Área calibrada": {
+          "MAE": 117.2,
+          "sesgo": 42.2,
+          "MAPE_pct": 168.3,
+          "RMSE": 151.0,
+          "r": -0.055
+        },
+        "imagenes": 91,
+        "aves_media": 209.6
+      },
+      "4": {
+        "A · Componentes": {
+          "MAE": 106.3,
+          "sesgo": 6.0,
+          "MAPE_pct": 160.0,
+          "RMSE": 116.2,
+          "r": 0.032
+        },
+        "B · Área de referencia": {
+          "MAE": 1651.3,
+          "sesgo": 1651.3,
+          "MAPE_pct": 3138.1,
+          "RMSE": 2072.8,
+          "r": -0.551
+        },
+        "C · Área calibrada": {
+          "MAE": 96.0,
+          "sesgo": 16.5,
+          "MAPE_pct": 148.1,
+          "RMSE": 109.1,
+          "r": 0.253
+        },
+        "imagenes": 127,
+        "aves_media": 143.3
+      },
+      "5": {
+        "A · Componentes": {
+          "MAE": 72.0,
+          "sesgo": 52.4,
+          "MAPE_pct": 133.6,
+          "RMSE": 84.9,
+          "r": -0.318
+        },
+        "B · Área de referencia": {
+          "MAE": 1995.3,
+          "sesgo": 1995.3,
+          "MAPE_pct": 3929.9,
+          "RMSE": 2237.8,
+          "r": -0.587
+        },
+        "C · Área calibrada": {
+          "MAE": 41.3,
+          "sesgo": 18.6,
+          "MAPE_pct": 74.0,
+          "RMSE": 48.3,
+          "r": -0.041
+        },
+        "imagenes": 18,
+        "aves_media": 63.9
+      },
+      "6": {
+        "A · Componentes": {
+          "MAE": 55.7,
+          "sesgo": -14.1,
+          "MAPE_pct": 172.8,
+          "RMSE": 69.0,
+          "r": -0.151
+        },
+        "B · Área de referencia": {
+          "MAE": 1256.9,
+          "sesgo": 1256.9,
+          "MAPE_pct": 6001.9,
+          "RMSE": 1814.9,
+          "r": -0.564
+        },
+        "C · Área calibrada": {
+          "MAE": 32.6,
+          "sesgo": 15.3,
+          "MAPE_pct": 151.8,
+          "RMSE": 48.0,
+          "r": 0.54
+        },
+        "imagenes": 74,
+        "aves_media": 102.3
+      }
+    },
+    "error_por_galpon": {
+      "C": {
+        "A · Componentes": {
+          "MAE": 95.9,
+          "sesgo": -66.3,
+          "MAPE_pct": 82.3,
+          "RMSE": 118.1,
+          "r": 0.592
+        },
+        "B · Área de referencia": {
+          "MAE": 1105.8,
+          "sesgo": 1105.8,
+          "MAPE_pct": 2079.8,
+          "RMSE": 1624.2,
+          "r": -0.275
+        },
+        "C · Área calibrada": {
+          "MAE": 94.6,
+          "sesgo": -8.3,
+          "MAPE_pct": 93.5,
+          "RMSE": 134.5,
+          "r": 0.352
+        },
+        "imagenes": 268
+      },
+      "P": {
+        "A · Componentes": {
+          "MAE": 79.4,
+          "sesgo": 76.9,
+          "MAPE_pct": 167.2,
+          "RMSE": 93.6,
+          "r": -0.222
+        },
+        "B · Área de referencia": {
+          "MAE": 1791.9,
+          "sesgo": 1791.9,
+          "MAPE_pct": 3748.6,
+          "RMSE": 2121.4,
+          "r": -0.616
+        },
+        "C · Área calibrada": {
+          "MAE": 114.6,
+          "sesgo": 114.3,
+          "MAPE_pct": 222.5,
+          "RMSE": 143.6,
+          "r": 0.124
+        },
+        "imagenes": 184
+      }
+    },
+    "umbral_otsu": {
+      "mediana": 119.0,
+      "min": 93.0,
+      "max": 153.0
+    },
+    "pct_primer_plano_por_semana": {
+      "1": 24.5,
+      "2": 27.9,
+      "3": 26.7,
+      "4": 34.6,
+      "5": 35.5,
+      "6": 33.4
+    },
+    "pct_quitado_saturacion_por_semana": {
+      "1": 16.2,
+      "2": 9.4,
+      "3": 6.1,
+      "4": 5.1,
+      "5": 10.3,
+      "6": 2.4
+    },
+    "componentes_por_ave_por_semana": {
+      "1": 1.1,
+      "2": 0.96,
+      "3": 0.78,
+      "4": 1.04,
+      "5": 1.82,
+      "6": 0.86
+    },
+    "referencia_YOLO11s_MAE_NB08": 13.9,
+    "referencia_FasterRCNN_MAE_NB08": 41.6
+  },
+  "figura_4_5": {
+    "imagen": "C-W2-V0024.jpg",
+    "semana": 2,
+    "galpon": "C",
+    "aves_anotadas": 114,
+    "umbral_otsu": 121,
+    "componentes": 223,
+    "estimadas_area_ref": 3460,
+    "estimadas_area_calibrada": 355,
+    "area_referencia_px": 53.0,
+    "componentes_1_ave": 141,
+    "componentes_2_3_aves": 51,
+    "componentes_4_o_mas": 31,
+    "componente_mayor_aves": 2728
+  },
+  "figura_4_7": {
+    "Menor error": {
+      "archivo": "C-W6-V0061.jpg",
+      "semana": 6,
+      "galpon": "C",
+      "anotadas": 96,
+      "A_componentes": 62,
+      "B_area_ref": 193,
+      "C_area_calibrada": 96,
+      "pct_primer_plano": 27.2,
+      "umbral_otsu": 137
+    },
+    "Error mediano": {
+      "archivo": "C-W3-V0063.jpg",
+      "semana": 3,
+      "galpon": "C",
+      "anotadas": 243,
+      "A_componentes": 119,
+      "B_area_ref": 1988,
+      "C_area_calibrada": 317,
+      "pct_primer_plano": 33.6,
+      "umbral_otsu": 108
+    },
+    "Mayor subestimación": {
+      "archivo": "C-W2-V0042.jpg",
+      "semana": 2,
+      "galpon": "C",
+      "anotadas": 594,
+      "A_componentes": 376,
+      "B_area_ref": 835,
+      "C_area_calibrada": 330,
+      "pct_primer_plano": 32.5,
+      "umbral_otsu": 125
+    },
+    "Mayor sobreestimación": {
+      "archivo": "C-W1-V0005.jpg",
+      "semana": 1,
+      "galpon": "C",
+      "anotadas": 128,
+      "A_componentes": 146,
+      "B_area_ref": 3979,
+      "C_area_calibrada": 674,
+      "pct_primer_plano": 61.7,
+      "umbral_otsu": 115
+    }
+  },
+  "figuras_generadas": [
+    "Fig_4_1_umbralizacion.png",
+    "Fig_4_2_segmentacion_color.png",
+    "Fig_4_3_morfologia.png",
+    "Fig_4_4_contornos_clases.png",
+    "Fig_4_5_conteo_clasico_pasos.png",
+    "Fig_4_6_conteo_por_semana.png",
+    "Fig_4_7_conteo_casos.png"
+  ]
+}

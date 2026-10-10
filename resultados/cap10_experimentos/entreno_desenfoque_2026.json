@@ -1,0 +1,9 @@
+{
+ "clave": "desenfoque_2026",
+ "conjunto": "desenfoque",
+ "semilla": 2026,
+ "minutos": 2.0,
+ "epocas": 25,
+ "val_f1": 0.8873043478260868,
+ "radio_medio": 1.7605111613028537
+}

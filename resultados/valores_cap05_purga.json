@@ -1,0 +1,370 @@
+{
+ "purga": [
+  {
+   "condición": "A · original",
+   "umbral": 4,
+   "grupos": 426,
+   "retiradas de entrenamiento": 0,
+   "retiradas de validación": 0,
+   "imágenes de prueba con pareja fuera": 0
+  },
+  {
+   "condición": "B · purga a 12 bits",
+   "umbral": 12,
+   "grupos": 405,
+   "retiradas de entrenamiento": 11,
+   "retiradas de validación": 1,
+   "imágenes de prueba con pareja fuera": 4
+  },
+  {
+   "condición": "C · purga a 14 bits",
+   "umbral": 14,
+   "grupos": 394,
+   "retiradas de entrenamiento": 17,
+   "retiradas de validación": 2,
+   "imágenes de prueba con pareja fuera": 7
+  }
+ ],
+ "retiradas_por_clase": {
+  "B": {
+   "ripe": 9,
+   "unripe": 2,
+   "overripe": 1
+  },
+  "C": {
+   "ripe": 12,
+   "unripe": 5,
+   "overripe": 1,
+   "empty": 1
+  }
+ },
+ "prueba_afectadas": {
+  "B": [
+   "TrainRipe(16).JPG",
+   "TrainRipe(18).JPG",
+   "TrainRipe(55).jpg",
+   "TrainUnripe(104).jpg"
+  ],
+  "C": [
+   "TrainRipe(16).JPG",
+   "TrainRipe(18).JPG",
+   "TrainRipe(55).jpg",
+   "TrainRipe(72).jpg",
+   "TrainUnripe(104).jpg",
+   "TrainUnripe(51).jpg",
+   "TrainUnripe(56).jpg"
+  ]
+ },
+ "pares_revision": [
+  {
+   "d": 5,
+   "a": "TrainRipe(18).JPG",
+   "b": "TrainRipe(19).JPG",
+   "part_a": "test",
+   "part_b": "train"
+  },
+  {
+   "d": 6,
+   "a": "TrainRipe(54).jpg",
+   "b": "TrainRipe(55).jpg",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 6,
+   "a": "TrainRipe(4).JPG",
+   "b": "TrainRipe(5).JPG",
+   "part_a": "train",
+   "part_b": "val"
+  },
+  {
+   "d": 6,
+   "a": "TrainRipe(18).JPG",
+   "b": "TrainRipe(20).JPG",
+   "part_a": "test",
+   "part_b": "train"
+  },
+  {
+   "d": 8,
+   "a": "TrainRipe(15).JPG",
+   "b": "TrainRipe(16).JPG",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 8,
+   "a": "TestRipe(39).JPG",
+   "b": "TrainRipe(18).JPG",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 9,
+   "a": "TestRipe(16).JPG",
+   "b": "TrainRipe(18).JPG",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 9,
+   "a": "TrainUnripe(105).jpg",
+   "b": "TrainUnripe(104).jpg",
+   "part_a": "val",
+   "part_b": "test"
+  },
+  {
+   "d": 10,
+   "a": "TrainRipe(23).JPG",
+   "b": "TrainRipe(22).JPG",
+   "part_a": "train",
+   "part_b": "val"
+  },
+  {
+   "d": 11,
+   "a": "TrainRipe(17).JPG",
+   "b": "TrainRipe(18).JPG",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 12,
+   "a": "TrainOverripe(24).jpg",
+   "b": "TrainOverripe(27).jpg",
+   "part_a": "val",
+   "part_b": "train"
+  },
+  {
+   "d": 12,
+   "a": "TrainUnripe(24).JPG",
+   "b": "TrainUnripe(25).JPG",
+   "part_a": "val",
+   "part_b": "train"
+  },
+  {
+   "d": 13,
+   "a": "TrainUnripe(123).jpg",
+   "b": "TrainUnripe(51).jpg",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 14,
+   "a": "TrainEmpty(14).jpg",
+   "b": "TrainEmpty(15).jpg",
+   "part_a": "train",
+   "part_b": "val"
+  },
+  {
+   "d": 14,
+   "a": "TestRipe(33).jpg",
+   "b": "TrainRipe(72).jpg",
+   "part_a": "train",
+   "part_b": "test"
+  },
+  {
+   "d": 14,
+   "a": "TrainUnripe(12).JPG",
+   "b": "TrainUnripe(123).jpg",
+   "part_a": "val",
+   "part_b": "train"
+  },
+  {
+   "d": 14,
+   "a": "TrainUnripe(56).jpg",
+   "b": "TrainUnripe(34).jpg",
+   "part_a": "test",
+   "part_b": "train"
+  }
+ ],
+ "tamanos": {
+  "A": {
+   "train": 312,
+   "val": 70,
+   "test": 70
+  },
+  "B": {
+   "train": 301,
+   "val": 69,
+   "test": 70
+  },
+  "C": {
+   "train": 295,
+   "val": 68,
+   "test": 70
+  }
+ },
+ "resumen": {
+  "A": {
+   "n_train": 312,
+   "f1_media": 0.8740655848716854,
+   "f1_de": 0.044137197921135254,
+   "f1_min": 0.8102588278232308,
+   "f1_max": 0.9169757102580786,
+   "exactitud_media": 0.9142857142857143,
+   "val_f1_media": 0.8950505338858161,
+   "f1_media_3_semillas": 0.8461497153846005,
+   "f1_por_clase_media": {
+    "damaged": 0.82,
+    "empty": 0.8333333333333333,
+    "overripe": 0.844148380355277,
+    "ripe": 0.9282070506579851,
+    "unripe": 0.9446391600118309
+   }
+  },
+  "B": {
+   "n_train": 301,
+   "f1_media": 0.8650637902420278,
+   "f1_de": 0.011743085962753882,
+   "f1_min": 0.8541739332635739,
+   "f1_max": 0.8806376811594202,
+   "exactitud_media": 0.9114285714285714,
+   "val_f1_media": 0.8972744205143088,
+   "f1_media_3_semillas": 0.8655493001494428,
+   "f1_por_clase_media": {
+    "damaged": 0.9,
+    "empty": 0.7,
+    "overripe": 0.864114478114478,
+    "ripe": 0.9135880685319858,
+    "unripe": 0.9476164045636757
+   },
+   "dif_media": -0.0090017946296574,
+   "dif_de": 0.05029886976825131,
+   "dif_por_semilla": {
+    "2026": -0.007709877780003871,
+    "2027": 0.07037885333618943,
+    "2028": -0.00447022126165908,
+    "2029": -0.06072913468297225,
+    "2030": -0.04247859275984123
+   },
+   "semillas_en_que_baja": 4
+  },
+  "C": {
+   "n_train": 295,
+   "f1_media": 0.8656497302173121,
+   "f1_de": 0.050656888997053375,
+   "f1_min": 0.8206045197740114,
+   "f1_max": 0.9457966764418376,
+   "exactitud_media": 0.8857142857142858,
+   "val_f1_media": 0.8888309380768101,
+   "f1_media_3_semillas": 0.8794711206939264,
+   "f1_por_clase_media": {
+    "damaged": 0.9199999999999999,
+    "empty": 0.76,
+    "overripe": 0.8614312354312356,
+    "ripe": 0.8892240400386928,
+    "unripe": 0.8975933756166314
+   },
+   "dif_media": -0.008415854654373356,
+   "dif_de": 0.08782148957176113,
+   "dif_por_semilla": {
+    "2026": 0.002559852489726233,
+    "2027": 0.13553784861860685,
+    "2028": -0.03813348518035564,
+    "2029": -0.04567229871577705,
+    "2030": -0.09637119048406717
+   },
+   "semillas_en_que_baja": 3
+  }
+ },
+ "f1_proyecto_NB04": {
+  "2026": 0.8667,
+  "2027": 0.8103,
+  "2028": 0.8615
+ },
+ "detalle_por_imagen": {
+  "B": {
+   "imagenes_afectadas": [
+    "2aba3a09f992_TrainRipe_16.jpg",
+    "5d17b129b7cc_TrainRipe_18.jpg",
+    "c00197cd9cfd_TrainRipe_55.jpg",
+    "66b04baa0cdb_TrainUnripe_104.jpg"
+   ],
+   "aciertos_afectadas_A": {
+    "2aba3a09f992_TrainRipe_16.jpg": 5,
+    "5d17b129b7cc_TrainRipe_18.jpg": 5,
+    "c00197cd9cfd_TrainRipe_55.jpg": 5,
+    "66b04baa0cdb_TrainUnripe_104.jpg": 4
+   },
+   "aciertos_afectadas_B": {
+    "2aba3a09f992_TrainRipe_16.jpg": 5,
+    "5d17b129b7cc_TrainRipe_18.jpg": 5,
+    "c00197cd9cfd_TrainRipe_55.jpg": 5,
+    "66b04baa0cdb_TrainUnripe_104.jpg": 4
+   },
+   "tasa_afectadas_A": 0.95,
+   "tasa_afectadas_B": 0.95,
+   "tasa_resto_A": 0.9121212121212121,
+   "tasa_resto_B": 0.9090909090909091,
+   "predicciones_que_cambian_por_semilla": {
+    "2026": 3,
+    "2027": 9,
+    "2028": 6,
+    "2029": 7,
+    "2030": 4
+   }
+  },
+  "C": {
+   "imagenes_afectadas": [
+    "2aba3a09f992_TrainRipe_16.jpg",
+    "5d17b129b7cc_TrainRipe_18.jpg",
+    "c00197cd9cfd_TrainRipe_55.jpg",
+    "d917265c692c_TrainRipe_72.jpg",
+    "2685442e59d6_TrainUnripe_56.jpg",
+    "66b04baa0cdb_TrainUnripe_104.jpg",
+    "a5d381c9e8b6_TrainUnripe_51.jpg"
+   ],
+   "aciertos_afectadas_A": {
+    "2aba3a09f992_TrainRipe_16.jpg": 5,
+    "5d17b129b7cc_TrainRipe_18.jpg": 5,
+    "c00197cd9cfd_TrainRipe_55.jpg": 5,
+    "d917265c692c_TrainRipe_72.jpg": 4,
+    "2685442e59d6_TrainUnripe_56.jpg": 5,
+    "66b04baa0cdb_TrainUnripe_104.jpg": 4,
+    "a5d381c9e8b6_TrainUnripe_51.jpg": 5
+   },
+   "aciertos_afectadas_C": {
+    "2aba3a09f992_TrainRipe_16.jpg": 5,
+    "5d17b129b7cc_TrainRipe_18.jpg": 5,
+    "c00197cd9cfd_TrainRipe_55.jpg": 5,
+    "d917265c692c_TrainRipe_72.jpg": 5,
+    "2685442e59d6_TrainUnripe_56.jpg": 5,
+    "66b04baa0cdb_TrainUnripe_104.jpg": 3,
+    "a5d381c9e8b6_TrainUnripe_51.jpg": 5
+   },
+   "tasa_afectadas_A": 0.9428571428571428,
+   "tasa_afectadas_C": 0.9428571428571428,
+   "tasa_resto_A": 0.9111111111111111,
+   "tasa_resto_C": 0.8793650793650793,
+   "predicciones_que_cambian_por_semilla": {
+    "2026": 5,
+    "2027": 11,
+    "2028": 9,
+    "2029": 8,
+    "2030": 11
+   }
+  }
+ },
+ "configuracion": {
+  "pesos": "yolo11m-cls.pt",
+  "epocas": 60,
+  "lado": 384,
+  "paciencia": 15,
+  "lote": 8,
+  "semillas": [
+   2026,
+   2027,
+   2028,
+   2029,
+   2030
+  ],
+  "umbral": {
+   "A": 4,
+   "B": 12,
+   "C": 14
+  },
+  "gpu": "NVIDIA L4",
+  "torch": "2.11.0+cu130",
+  "ultralytics": "8.4.172",
+  "minutos_totales": 19.4
+ }
+}

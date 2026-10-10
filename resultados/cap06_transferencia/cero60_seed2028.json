@@ -1,0 +1,29 @@
+{
+ "nombre": "cero60_seed2028",
+ "pesos": "yolo11m-cls.yaml",
+ "semilla": 2028,
+ "epocas_max": 60,
+ "paciencia": 15,
+ "preentrenado": false,
+ "epocas_hechas": 35,
+ "minutos": 1.49,
+ "val": {
+  "exactitud": 0.8,
+  "f1_macro": 0.5439928698752228
+ },
+ "prueba": {
+  "exactitud": 0.8,
+  "f1_macro": 0.6314285714285715
+ },
+ "columnas_curva": [
+  "epoch",
+  "time",
+  "train/loss",
+  "metrics/accuracy_top1",
+  "metrics/accuracy_top5",
+  "val/loss",
+  "lr/pg0",
+  "lr/pg1",
+  "lr/pg2"
+ ]
+}

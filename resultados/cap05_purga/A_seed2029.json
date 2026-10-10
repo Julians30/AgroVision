@@ -1,0 +1,31 @@
+{
+ "condicion": "A",
+ "semilla": 2029,
+ "minutos": 1.68,
+ "epocas": 40,
+ "gpu": "NVIDIA L4",
+ "n_train": 312,
+ "n_val": 70,
+ "val": {
+  "exactitud": 0.9142857142857143,
+  "f1_macro": 0.7938372758909299,
+  "f1_por_clase": {
+   "damaged": 0.5,
+   "empty": 0.6666666666666666,
+   "overripe": 0.9565217391304348,
+   "ripe": 0.9523809523809523,
+   "unripe": 0.8936170212765957
+  }
+ },
+ "prueba": {
+  "exactitud": 0.9285714285714286,
+  "f1_macro": 0.9149030679465462,
+  "f1_por_clase": {
+   "damaged": 0.8,
+   "empty": 1.0,
+   "overripe": 0.9090909090909091,
+   "ripe": 0.9523809523809523,
+   "unripe": 0.9130434782608695
+  }
+ }
+}

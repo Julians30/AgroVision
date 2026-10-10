@@ -1,0 +1,12 @@
+# Versiones con las que se obtuvieron los resultados del libro
+ultralytics==8.4.172
+torch==2.11.0
+torchvision==0.26.0
+# Resto de dependencias (las que trae Google Colab sirven)
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+pillow

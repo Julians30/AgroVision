@@ -1,0 +1,16 @@
+condicion,nivel,parametro,nitidez_mediana,contraste_mediana,brillo_mediana,pct_marcadas,f1_macro_NB07
+Sin degradar,,,4480.552,48.929,121.522,18.571,0.867
+Oscurecimiento,moderado,"factor 0,75",2521.604,36.697,90.767,82.857,
+Oscurecimiento,severo,"factor 0,55",1357.231,26.912,66.363,100.0,0.851
+Sobreexposición,moderado,"factor 1,25",6476.589,57.592,149.11,70.0,
+Sobreexposición,severo,"factor 1,45",7528.658,61.152,167.596,90.0,0.856
+Contraste bajo,moderado,"factor 0,70",2196.994,34.25,119.942,68.571,
+Contraste bajo,severo,"factor 0,45",909.374,22.021,119.235,100.0,0.67
+Desenfoque,moderado,"σ = 1,0 px",176.345,42.884,121.025,100.0,0.781
+Desenfoque,severo,"σ = 2,5 px",7.698,37.643,121.025,100.0,0.506
+Ruido,moderado,σ = 12 niveles,5722.273,49.396,121.043,10.0,0.906
+Ruido,severo,σ = 28 niveles,11148.423,51.281,121.19,4.286,0.778
+Rotación,moderado,8°,1923.016,46.204,120.648,80.0,
+Rotación,severo,18°,1971.307,45.882,120.398,77.143,0.814
+Compresión JPEG,moderado,calidad 60,3994.135,48.761,121.511,18.571,
+Compresión JPEG,severo,calidad 30,2859.827,48.119,121.495,32.857,0.874

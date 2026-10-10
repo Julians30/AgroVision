@@ -1,0 +1,610 @@
+{
+  "imagen_ejemplo_palma": {
+    "archivo": "5b07a46b9b5b_TrainRipe_137.jpg",
+    "ancho": 757,
+    "alto": 568
+  },
+  "metricas_imagen_ejemplo_degradada": [
+    {
+      "condicion": "Original",
+      "nivel": "",
+      "parametro": "",
+      "brillo": 107.18,
+      "contraste": 41.68,
+      "entropia": 7.28,
+      "nitidez": 2467.98,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.03
+    },
+    {
+      "condicion": "Oscurecimiento",
+      "nivel": "moderado",
+      "parametro": "factor 0,75",
+      "brillo": 80.01,
+      "contraste": 31.26,
+      "entropia": 6.86,
+      "nitidez": 1389.76,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.0
+    },
+    {
+      "condicion": "Oscurecimiento",
+      "nivel": "severo",
+      "parametro": "factor 0,55",
+      "brillo": 58.47,
+      "contraste": 22.93,
+      "entropia": 6.42,
+      "nitidez": 748.5,
+      "pct_oscuros": 0.01,
+      "pct_saturados": 0.0
+    },
+    {
+      "condicion": "Sobreexposición",
+      "nivel": "moderado",
+      "parametro": "factor 1,25",
+      "brillo": 132.22,
+      "contraste": 48.65,
+      "entropia": 7.49,
+      "nitidez": 3780.84,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 1.9
+    },
+    {
+      "condicion": "Sobreexposición",
+      "nivel": "severo",
+      "parametro": "factor 1,45",
+      "brillo": 150.78,
+      "contraste": 51.33,
+      "entropia": 7.5,
+      "nitidez": 4791.63,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 5.4
+    },
+    {
+      "condicion": "Contraste bajo",
+      "nivel": "moderado",
+      "parametro": "factor 0,70",
+      "brillo": 106.58,
+      "contraste": 29.18,
+      "entropia": 6.76,
+      "nitidez": 1210.68,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.0
+    },
+    {
+      "condicion": "Contraste bajo",
+      "nivel": "severo",
+      "parametro": "factor 0,45",
+      "brillo": 106.51,
+      "contraste": 18.76,
+      "entropia": 6.13,
+      "nitidez": 501.63,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.0
+    },
+    {
+      "condicion": "Desenfoque",
+      "nivel": "moderado",
+      "parametro": "σ = 1,0 px",
+      "brillo": 106.68,
+      "contraste": 36.22,
+      "entropia": 7.02,
+      "nitidez": 136.16,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.0
+    },
+    {
+      "condicion": "Desenfoque",
+      "nivel": "severo",
+      "parametro": "σ = 2,5 px",
+      "brillo": 106.68,
+      "contraste": 30.62,
+      "entropia": 6.72,
+      "nitidez": 7.74,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.0
+    },
+    {
+      "condicion": "Ruido",
+      "nivel": "moderado",
+      "parametro": "σ = 12 niveles",
+      "brillo": 106.67,
+      "contraste": 42.35,
+      "entropia": 7.32,
+      "nitidez": 3747.13,
+      "pct_oscuros": 0.02,
+      "pct_saturados": 0.04
+    },
+    {
+      "condicion": "Ruido",
+      "nivel": "severo",
+      "parametro": "σ = 28 niveles",
+      "brillo": 106.67,
+      "contraste": 45.04,
+      "entropia": 7.46,
+      "nitidez": 9245.88,
+      "pct_oscuros": 0.08,
+      "pct_saturados": 0.08
+    },
+    {
+      "condicion": "Rotación",
+      "nivel": "moderado",
+      "parametro": "8°",
+      "brillo": 107.0,
+      "contraste": 39.83,
+      "entropia": 7.2,
+      "nitidez": 1129.69,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.01
+    },
+    {
+      "condicion": "Rotación",
+      "nivel": "severo",
+      "parametro": "18°",
+      "brillo": 107.38,
+      "contraste": 39.91,
+      "entropia": 7.21,
+      "nitidez": 1163.94,
+      "pct_oscuros": 0.0,
+      "pct_saturados": 0.01
+    },
+    {
+      "condicion": "Compresión JPEG",
+      "nivel": "moderado",
+      "parametro": "calidad 60",
+      "brillo": 107.15,
+      "contraste": 41.47,
+      "entropia": 7.28,
+      "nitidez": 1970.19,
+      "pct_oscuros": 0.01,
+      "pct_saturados": 0.04
+    },
+    {
+      "condicion": "Compresión JPEG",
+      "nivel": "severo",
+      "parametro": "calidad 30",
+      "brillo": 107.15,
+      "contraste": 41.14,
+      "entropia": 7.26,
+      "nitidez": 1500.94,
+      "pct_oscuros": 0.01,
+      "pct_saturados": 0.04
+    }
+  ],
+  "calidad_dataset_palma": {
+    "lado_mayor_px": 512,
+    "percentiles": {
+      "brillo": {
+        "P1": 74.03,
+        "P2,5": 89.03,
+        "P5": 94.63,
+        "P25": 112.24,
+        "P50": 120.19,
+        "P75": 127.99,
+        "P95": 137.69,
+        "P97,5": 140.24,
+        "P99": 142.19
+      },
+      "contraste": {
+        "P1": 31.45,
+        "P2,5": 32.92,
+        "P5": 33.79,
+        "P25": 41.4,
+        "P50": 49.51,
+        "P75": 56.07,
+        "P95": 64.16,
+        "P97,5": 67.07,
+        "P99": 69.96
+      },
+      "entropia": {
+        "P1": 6.86,
+        "P2,5": 6.95,
+        "P5": 7.03,
+        "P25": 7.31,
+        "P50": 7.55,
+        "P75": 7.71,
+        "P95": 7.82,
+        "P97,5": 7.87,
+        "P99": 7.89
+      },
+      "nitidez": {
+        "P1": 1046.99,
+        "P2,5": 1483.08,
+        "P5": 2361.66,
+        "P25": 3639.36,
+        "P50": 4437.93,
+        "P75": 5561.23,
+        "P95": 7759.25,
+        "P97,5": 8270.33,
+        "P99": 8598.91
+      },
+      "pct_oscuros": {
+        "P1": 0.0,
+        "P2,5": 0.0,
+        "P5": 0.0,
+        "P25": 0.0,
+        "P50": 0.02,
+        "P75": 0.16,
+        "P95": 1.08,
+        "P97,5": 1.95,
+        "P99": 3.52
+      },
+      "pct_saturados": {
+        "P1": 0.01,
+        "P2,5": 0.03,
+        "P5": 0.05,
+        "P25": 0.15,
+        "P50": 0.31,
+        "P75": 0.72,
+        "P95": 3.0,
+        "P97,5": 5.3,
+        "P99": 7.06
+      }
+    },
+    "minimo": {
+      "brillo": 56.0,
+      "contraste": 26.19,
+      "entropia": 6.71,
+      "nitidez": 77.52
+    },
+    "maximo": {
+      "brillo": 149.61,
+      "contraste": 79.12,
+      "entropia": 7.94,
+      "nitidez": 10919.6
+    },
+    "mediana_por_clase": {
+      "Inmaduro": {
+        "brillo": 114.0,
+        "contraste": 55.9,
+        "entropia": 7.7,
+        "nitidez": 5118.4
+      },
+      "Maduro": {
+        "brillo": 122.2,
+        "contraste": 45.2,
+        "entropia": 7.4,
+        "nitidez": 4060.7
+      },
+      "Sobremaduro": {
+        "brillo": 123.6,
+        "contraste": 43.2,
+        "entropia": 7.4,
+        "nitidez": 4484.0
+      },
+      "Dañado": {
+        "brillo": 120.1,
+        "contraste": 54.6,
+        "entropia": 7.8,
+        "nitidez": 5531.9
+      },
+      "Vacío": {
+        "brillo": 130.9,
+        "contraste": 46.8,
+        "entropia": 7.5,
+        "nitidez": 4380.8
+      }
+    },
+    "umbrales_regla": {
+      "nitidez_min": 2361.7,
+      "contraste_min": 33.8,
+      "brillo_min": 89.0,
+      "brillo_max": 140.2
+    },
+    "imagenes_marcadas": 57,
+    "pct_marcadas": 12.6,
+    "marcadas_por_motivo": {
+      "nitidez": 23,
+      "contraste": 23,
+      "oscura": 12,
+      "clara": 12
+    },
+    "imagenes_con_mas_de_1pct_saturado": 77,
+    "imagenes_con_mas_de_1pct_negro": 26,
+    "correlacion_nitidez_contraste": 0.23
+  },
+  "regla_frente_a_degradaciones": {
+    "n_imagenes": 70,
+    "filas": [
+      {
+        "condicion": "Sin degradar",
+        "nivel": "",
+        "parametro": "",
+        "nitidez_mediana": 4480.55,
+        "contraste_mediana": 48.93,
+        "brillo_mediana": 121.52,
+        "pct_marcadas": 18.57,
+        "f1_macro_NB07": 0.87
+      },
+      {
+        "condicion": "Oscurecimiento",
+        "nivel": "moderado",
+        "parametro": "factor 0,75",
+        "nitidez_mediana": 2521.6,
+        "contraste_mediana": 36.7,
+        "brillo_mediana": 90.77,
+        "pct_marcadas": 82.86,
+        "f1_macro_NB07": null
+      },
+      {
+        "condicion": "Oscurecimiento",
+        "nivel": "severo",
+        "parametro": "factor 0,55",
+        "nitidez_mediana": 1357.23,
+        "contraste_mediana": 26.91,
+        "brillo_mediana": 66.36,
+        "pct_marcadas": 100.0,
+        "f1_macro_NB07": 0.85
+      },
+      {
+        "condicion": "Sobreexposición",
+        "nivel": "moderado",
+        "parametro": "factor 1,25",
+        "nitidez_mediana": 6476.59,
+        "contraste_mediana": 57.59,
+        "brillo_mediana": 149.11,
+        "pct_marcadas": 70.0,
+        "f1_macro_NB07": null
+      },
+      {
+        "condicion": "Sobreexposición",
+        "nivel": "severo",
+        "parametro": "factor 1,45",
+        "nitidez_mediana": 7528.66,
+        "contraste_mediana": 61.15,
+        "brillo_mediana": 167.6,
+        "pct_marcadas": 90.0,
+        "f1_macro_NB07": 0.86
+      },
+      {
+        "condicion": "Contraste bajo",
+        "nivel": "moderado",
+        "parametro": "factor 0,70",
+        "nitidez_mediana": 2196.99,
+        "contraste_mediana": 34.25,
+        "brillo_mediana": 119.94,
+        "pct_marcadas": 68.57,
+        "f1_macro_NB07": null
+      },
+      {
+        "condicion": "Contraste bajo",
+        "nivel": "severo",
+        "parametro": "factor 0,45",
+        "nitidez_mediana": 909.37,
+        "contraste_mediana": 22.02,
+        "brillo_mediana": 119.23,
+        "pct_marcadas": 100.0,
+        "f1_macro_NB07": 0.67
+      },
+      {
+        "condicion": "Desenfoque",
+        "nivel": "moderado",
+        "parametro": "σ = 1,0 px",
+        "nitidez_mediana": 176.35,
+        "contraste_mediana": 42.88,
+        "brillo_mediana": 121.02,
+        "pct_marcadas": 100.0,
+        "f1_macro_NB07": 0.78
+      },
+      {
+        "condicion": "Desenfoque",
+        "nivel": "severo",
+        "parametro": "σ = 2,5 px",
+        "nitidez_mediana": 7.7,
+        "contraste_mediana": 37.64,
+        "brillo_mediana": 121.02,
+        "pct_marcadas": 100.0,
+        "f1_macro_NB07": 0.51
+      },
+      {
+        "condicion": "Ruido",
+        "nivel": "moderado",
+        "parametro": "σ = 12 niveles",
+        "nitidez_mediana": 5722.27,
+        "contraste_mediana": 49.4,
+        "brillo_mediana": 121.04,
+        "pct_marcadas": 10.0,
+        "f1_macro_NB07": 0.91
+      },
+      {
+        "condicion": "Ruido",
+        "nivel": "severo",
+        "parametro": "σ = 28 niveles",
+        "nitidez_mediana": 11148.42,
+        "contraste_mediana": 51.28,
+        "brillo_mediana": 121.19,
+        "pct_marcadas": 4.29,
+        "f1_macro_NB07": 0.78
+      },
+      {
+        "condicion": "Rotación",
+        "nivel": "moderado",
+        "parametro": "8°",
+        "nitidez_mediana": 1923.02,
+        "contraste_mediana": 46.2,
+        "brillo_mediana": 120.65,
+        "pct_marcadas": 80.0,
+        "f1_macro_NB07": null
+      },
+      {
+        "condicion": "Rotación",
+        "nivel": "severo",
+        "parametro": "18°",
+        "nitidez_mediana": 1971.31,
+        "contraste_mediana": 45.88,
+        "brillo_mediana": 120.4,
+        "pct_marcadas": 77.14,
+        "f1_macro_NB07": 0.81
+      },
+      {
+        "condicion": "Compresión JPEG",
+        "nivel": "moderado",
+        "parametro": "calidad 60",
+        "nitidez_mediana": 3994.14,
+        "contraste_mediana": 48.76,
+        "brillo_mediana": 121.51,
+        "pct_marcadas": 18.57,
+        "f1_macro_NB07": null
+      },
+      {
+        "condicion": "Compresión JPEG",
+        "nivel": "severo",
+        "parametro": "calidad 30",
+        "nitidez_mediana": 2859.83,
+        "contraste_mediana": 48.12,
+        "brillo_mediana": 121.49,
+        "pct_marcadas": 32.86,
+        "f1_macro_NB07": 0.87
+      }
+    ]
+  },
+  "figura_3_2": {
+    "imagen": "7bc8d3ba24bc_TrainUnripe_31.jpg",
+    "clase": "Inmaduro",
+    "metricas": {
+      "Original": {
+        "brillo": 56.0,
+        "contraste": 55.0,
+        "entropia": 7.0,
+        "nitidez": 2425.8
+      },
+      "Estiramiento lineal": {
+        "brillo": 55.1,
+        "contraste": 55.1,
+        "entropia": 7.0,
+        "nitidez": 2430.7
+      },
+      "Ecualización global": {
+        "brillo": 123.6,
+        "contraste": 71.7,
+        "entropia": 7.5,
+        "nitidez": 6004.8
+      },
+      "CLAHE": {
+        "brillo": 82.2,
+        "contraste": 60.5,
+        "entropia": 7.6,
+        "nitidez": 5049.1
+      }
+    }
+  },
+  "figura_3_3": {
+    "recorte_px": 280,
+    "resultados": {
+      "Con ruido (σ = 28)": {
+        "psnr_dB": 19.45,
+        "nitidez": 9972.3
+      },
+      "Filtro de media 5 × 5": {
+        "psnr_dB": 21.38,
+        "nitidez": 81.6
+      },
+      "Filtro gaussiano (σ = 1,5)": {
+        "psnr_dB": 21.97,
+        "nitidez": 47.4
+      },
+      "Filtro de mediana 5 × 5": {
+        "psnr_dB": 21.44,
+        "nitidez": 227.9
+      },
+      "Filtro bilateral": {
+        "psnr_dB": 24.68,
+        "nitidez": 3666.2
+      },
+      "Original": {
+        "nitidez": 3475.5
+      }
+    }
+  },
+  "figura_3_4": {
+    "varianza_laplaciano_por_sigma": {
+      "0": 2504.3,
+      "1.0": 144.5,
+      "2.5": 8.5,
+      "5.0": 2.5
+    }
+  },
+  "figura_3_6": {
+    "brillo_bajo": [
+      {
+        "archivo": "7bc8d3ba24bc_TrainUnripe_31.jpg",
+        "clase": "Inmaduro",
+        "valor": 56.0
+      },
+      {
+        "archivo": "4171b7cb4112_TrainRipe_4.jpg",
+        "clase": "Maduro",
+        "valor": 57.1
+      }
+    ],
+    "contraste_bajo": [
+      {
+        "archivo": "daaeef906d30_TrainOverripe_57.jpg",
+        "clase": "Sobremaduro",
+        "valor": 26.2
+      },
+      {
+        "archivo": "72feca35cb9a_TrainRipe_79.jpg",
+        "clase": "Maduro",
+        "valor": 27.9
+      }
+    ],
+    "nitidez_bajo": [
+      {
+        "archivo": "72feca35cb9a_TrainRipe_79.jpg",
+        "clase": "Maduro",
+        "valor": 77.5
+      },
+      {
+        "archivo": "daaeef906d30_TrainOverripe_57.jpg",
+        "clase": "Sobremaduro",
+        "valor": 88.0
+      }
+    ],
+    "brillo_alto": [
+      {
+        "archivo": "6ed150e39647_TrainUnripe_123.jpg",
+        "clase": "Inmaduro",
+        "valor": 149.6
+      },
+      {
+        "archivo": "5f93a7064f1e_TrainRipe_146.jpg",
+        "clase": "Maduro",
+        "valor": 149.6
+      }
+    ],
+    "contraste_alto": [
+      {
+        "archivo": "5af5436c5086_TrainRipe_147.jpg",
+        "clase": "Maduro",
+        "valor": 79.1
+      },
+      {
+        "archivo": "5f93a7064f1e_TrainRipe_146.jpg",
+        "clase": "Maduro",
+        "valor": 76.4
+      }
+    ],
+    "nitidez_alto": [
+      {
+        "archivo": "a6a0bcd23597_TestUnripe_18.jpg",
+        "clase": "Inmaduro",
+        "valor": 10919.6
+      },
+      {
+        "archivo": "d32c6a75d6df_TrainUnripe_17.jpg",
+        "clase": "Inmaduro",
+        "valor": 9456.9
+      }
+    ]
+  },
+  "figuras_generadas": [
+    "Fig_3_1_degradaciones.png",
+    "Fig_3_2_mejora_contraste.png",
+    "Fig_3_3_ruido_filtros.png",
+    "Fig_3_4_nitidez_laplaciano.png",
+    "Fig_3_5_distribucion_calidad.png",
+    "Fig_3_6_extremos_calidad.png",
+    "Fig_3_7_tamano_aumento.png"
+  ]
+}

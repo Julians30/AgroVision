@@ -1,0 +1,29 @@
+{
+ "nombre": "pre_seed2026",
+ "pesos": "yolo11m-cls.pt",
+ "semilla": 2026,
+ "epocas_max": 60,
+ "paciencia": 15,
+ "preentrenado": true,
+ "epocas_hechas": 24,
+ "minutos": 1.12,
+ "val": {
+  "exactitud": 0.9571428571428572,
+  "f1_macro": 0.977397976979421
+ },
+ "prueba": {
+  "exactitud": 0.9428571428571428,
+  "f1_macro": 0.8666709167410429
+ },
+ "columnas_curva": [
+  "epoch",
+  "time",
+  "train/loss",
+  "metrics/accuracy_top1",
+  "metrics/accuracy_top5",
+  "val/loss",
+  "lr/pg0",
+  "lr/pg1",
+  "lr/pg2"
+ ]
+}

@@ -1,0 +1,1 @@
+{"fps": 10.264798511900828, "segundos": 58.55889940261841, "configuracion": {"tracker_type": "ocsort", "track_high_thresh": 0.25, "track_low_thresh": 0.1, "new_track_thresh": 0.25, "track_buffer": 30, "match_thresh": 0.8, "fuse_score": true, "delta_t": 3, "inertia": 0.2, "use_byte": false}, "conf": 0.25, "gpu": "NVIDIA L4"}

@@ -1,0 +1,16 @@
+condicion,nivel,parametro,brillo,contraste,entropia,nitidez,pct_oscuros,pct_saturados
+Original,,,107.18,41.68,7.28,2467.98,0.0,0.03
+Oscurecimiento,moderado,"factor 0,75",80.01,31.26,6.86,1389.76,0.0,0.0
+Oscurecimiento,severo,"factor 0,55",58.47,22.93,6.42,748.5,0.01,0.0
+Sobreexposición,moderado,"factor 1,25",132.22,48.65,7.49,3780.84,0.0,1.9
+Sobreexposición,severo,"factor 1,45",150.78,51.33,7.5,4791.63,0.0,5.4
+Contraste bajo,moderado,"factor 0,70",106.58,29.18,6.76,1210.68,0.0,0.0
+Contraste bajo,severo,"factor 0,45",106.51,18.76,6.13,501.63,0.0,0.0
+Desenfoque,moderado,"σ = 1,0 px",106.68,36.22,7.02,136.16,0.0,0.0
+Desenfoque,severo,"σ = 2,5 px",106.68,30.62,6.72,7.74,0.0,0.0
+Ruido,moderado,σ = 12 niveles,106.67,42.35,7.32,3747.13,0.02,0.04
+Ruido,severo,σ = 28 niveles,106.67,45.04,7.46,9245.88,0.08,0.08
+Rotación,moderado,8°,107.0,39.83,7.2,1129.69,0.0,0.01
+Rotación,severo,18°,107.38,39.91,7.21,1163.94,0.0,0.01
+Compresión JPEG,moderado,calidad 60,107.15,41.47,7.28,1970.19,0.01,0.04
+Compresión JPEG,severo,calidad 30,107.15,41.14,7.26,1500.94,0.01,0.04

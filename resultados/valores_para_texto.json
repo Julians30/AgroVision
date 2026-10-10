@@ -1,0 +1,283 @@
+{
+  "palma_inventario": {
+    "n_imagenes": 452,
+    "n_por_clase": {
+      "Inmaduro": 157,
+      "Maduro": 197,
+      "Sobremaduro": 72,
+      "Dañado": 15,
+      "Vacío": 11
+    },
+    "ancho_min": 568,
+    "ancho_mediana": 757,
+    "ancho_max": 1024,
+    "alto_min": 464,
+    "alto_mediana": 757,
+    "alto_max": 1024,
+    "dimensiones_distintas": 7,
+    "dimension_mas_frecuente": "757 × 568",
+    "imagenes_con_dimension_mas_frecuente": 194,
+    "megapixeles_mediana": 0.43,
+    "tabla_2_1_fila_palma": {
+      "dimensiones": "757 × 757",
+      "pixeles": 573049,
+      "tamano_sin_comprimir_MB": 1.72
+    },
+    "tamano_archivo_mediana_MB": 0.25
+  },
+  "color_por_clase": {
+    "media_Lab": {
+      "Inmaduro": {
+        "L": 38.9,
+        "a": 4.2,
+        "b": 7.1
+      },
+      "Maduro": {
+        "L": 47.9,
+        "a": 11.4,
+        "b": 14.0
+      },
+      "Sobremaduro": {
+        "L": 49.2,
+        "a": 9.2,
+        "b": 15.7
+      },
+      "Dañado": {
+        "L": 50.7,
+        "a": 1.3,
+        "b": 6.0
+      },
+      "Vacío": {
+        "L": 46.6,
+        "a": 6.9,
+        "b": 12.9
+      }
+    },
+    "de_Lab": {
+      "Inmaduro": {
+        "L": 8.4,
+        "a": 4.1,
+        "b": 6.9
+      },
+      "Maduro": {
+        "L": 6.3,
+        "a": 5.8,
+        "b": 7.3
+      },
+      "Sobremaduro": {
+        "L": 4.8,
+        "a": 4.3,
+        "b": 7.3
+      },
+      "Dañado": {
+        "L": 2.8,
+        "a": 4.6,
+        "b": 2.1
+      },
+      "Vacío": {
+        "L": 5.2,
+        "a": 2.6,
+        "b": 5.7
+      }
+    },
+    "diferencia_a_maduro_menos_inmaduro": 7.2,
+    "deltaE_inmaduro_maduro": 13.5,
+    "deltaE_maduro_sobremaduro": 3.0,
+    "solapamiento_a_inmaduro_maduro": 0.44,
+    "solapamiento_a_maduro_sobremaduro": 0.78,
+    "linea_base_color": {
+      "metodo": "centroide de color CIELAB más cercano (entrenamiento → prueba)",
+      "n_prueba": 70,
+      "exactitud": 0.4,
+      "f1_macro": 0.319,
+      "f1_por_clase": {
+        "Inmaduro": 0.634,
+        "Maduro": 0.44,
+        "Sobremaduro": 0.091,
+        "Dañado": 0.429,
+        "Vacío": 0.0
+      },
+      "referencia_modelo_YOLO11m_f1_macro_prueba": 0.846
+    }
+  },
+  "imagenes_ejemplo": {
+    "maduro": {
+      "archivo": "5b07a46b9b5b_TrainRipe_137.jpg",
+      "ancho": 757,
+      "alto": 568
+    },
+    "inmaduro": {
+      "archivo": "0461d2926465_TrainUnripe_122.jpg",
+      "ancho": 1024,
+      "alto": 768
+    }
+  },
+  "candidatas_ejemplo": {
+    "Maduro": [
+      "5b07a46b9b5b_TrainRipe_137.jpg",
+      "8ae6fc4f2407_TestRipe_22.jpg",
+      "62539edd7d05_TrainRipe_31.jpg",
+      "9dcc12db6f58_TrainRipe_34.jpg",
+      "d37b1ef05e66_TrainRipe_159.jpg",
+      "eec5c74f1258_TrainRipe_42.jpg",
+      "e9cff3bbca46_TrainRipe_62.jpg",
+      "220821881f0f_TestRipe_18.jpg"
+    ],
+    "Inmaduro": [
+      "0461d2926465_TrainUnripe_122.jpg",
+      "2d785662d410_TrainUnripe_120.jpg",
+      "d94055396e7c_TestUnripe_29.jpg",
+      "ffd9241f4621_TrainUnripe_54.jpg",
+      "b58f9fbba57f_TrainUnripe_65.jpg",
+      "8f19cb6269d3_TrainUnripe_55.jpg",
+      "cefc9e975d85_TrainUnripe_25.jpg",
+      "e71a579d19b7_TrainUnripe_112.jpg"
+    ]
+  },
+  "figura_1_2": {
+    "ejemplos_por_clase": 5,
+    "archivos": {
+      "Inmaduro": [
+        "0461d2926465_TrainUnripe_122.jpg",
+        "6ed150e39647_TrainUnripe_123.jpg",
+        "f8f51515ce00_TrainUnripe_114.jpg",
+        "44236a502792_TrainUnripe_11.jpg",
+        "0cc74182086d_TrainUnripe_129.jpg"
+      ],
+      "Maduro": [
+        "5b07a46b9b5b_TrainRipe_137.jpg",
+        "32c53c79258b_TrainRipe_52.jpg",
+        "706c387e5ba5_TestRipe_32.jpg",
+        "eb00176e98fc_TrainRipe_77.jpg",
+        "83906a365fa5_TrainRipe_36.jpg"
+      ],
+      "Sobremaduro": [
+        "fcfcf8248ae6_TrainOverripe_16.jpg",
+        "3c65e60957cf_TrainOverripe_23.jpg",
+        "48e435043aee_TrainOverripe_60.jpg",
+        "d2c04ca2b75f_TestOverripe_10.jpg",
+        "37c509819964_TrainOverripe_14.jpg"
+      ],
+      "Dañado": [
+        "215ad7e8161e_TrainDamaged_11.jpg",
+        "f03b8bf937a8_TrainDamaged_12.jpg",
+        "d6b60fb4ab35_TrainDamaged_6.jpg",
+        "df38ad7634fd_TestDamaged_2.jpg",
+        "1ba3a52246dc_TrainDamaged_7.jpg"
+      ],
+      "Vacío": [
+        "8b8029e01276_TestEmpty_1.jpg",
+        "b9759c509a8a_TrainEmpty_12.jpg",
+        "4b8ce16369d6_TestEmpty_3.jpg",
+        "1b8787bc2c4c_TrainEmpty_10.jpg",
+        "a0c49c52d79c_TrainEmpty_8.jpg"
+      ]
+    }
+  },
+  "figura_2_1": {
+    "imagen": "5b07a46b9b5b_TrainRipe_137.jpg",
+    "dimensiones_mostradas": "768 × 576",
+    "nota": "La imagen se redimensionó a 768 px de lado mayor antes de recortar."
+  },
+  "figura_2_2": {
+    "imagen": "5b07a46b9b5b_TrainRipe_137.jpg",
+    "dimensiones": {
+      "384": "384 × 288",
+      "96": "96 × 72",
+      "24": "24 × 18"
+    }
+  },
+  "correlacion_canales_RGB": {
+    "Maduro": {
+      "R-G": 0.86,
+      "R-B": 0.61,
+      "G-B": 0.85
+    },
+    "Inmaduro": {
+      "R-G": 0.95,
+      "R-B": 0.87,
+      "G-B": 0.94
+    }
+  },
+  "histogramas": {
+    "Maduro": {
+      "R": {
+        "media": 125.6,
+        "de": 50.3,
+        "pct_en_0": 0.0,
+        "pct_en_255": 0.56
+      },
+      "G": {
+        "media": 105.9,
+        "de": 45.6,
+        "pct_en_0": 0.0,
+        "pct_en_255": 0.06
+      },
+      "B": {
+        "media": 100.0,
+        "de": 38.4,
+        "pct_en_0": 0.0,
+        "pct_en_255": 0.0
+      },
+      "a_estrella": {
+        "media": 7.5,
+        "de": 10.5
+      }
+    },
+    "Inmaduro": {
+      "R": {
+        "media": 124.8,
+        "de": 55.7,
+        "pct_en_0": 0.0,
+        "pct_en_255": 0.16
+      },
+      "G": {
+        "media": 117.1,
+        "de": 57.5,
+        "pct_en_0": 0.0,
+        "pct_en_255": 0.07
+      },
+      "B": {
+        "media": 113.5,
+        "de": 54.3,
+        "pct_en_0": 0.0,
+        "pct_en_255": 0.02
+      },
+      "a_estrella": {
+        "media": 3.0,
+        "de": 7.7
+      }
+    }
+  },
+  "video_pio": {
+    "archivo": "PIO_alta_original_45s.mp4",
+    "ancho": 1920,
+    "alto": 1080,
+    "fps": 30.0,
+    "fotogramas": 1350,
+    "duracion_s": 45.0,
+    "tamano_archivo_MB": 48.5,
+    "tamano_sin_comprimir_GB": 8.4,
+    "razon_compresion": 173.0,
+    "conserva_resolucion_nativa_1920x1080": true,
+    "fotogramas_figura_2_8": [
+      300,
+      301,
+      302
+    ],
+    "diferencia_media_entre_consecutivos_niveles": 1.75,
+    "pct_pixeles_con_cambio_mayor_a_25_entre_a_y_c": 1.94
+  },
+  "figuras_generadas": [
+    "Fig_1_2_clases_palma.png",
+    "Fig_1_1_cadena_pixel_decision.png",
+    "Fig_2_1_pixel_ampliacion.png",
+    "Fig_2_2_resolucion_espacial.png",
+    "Fig_2_3_canales_RGB.png",
+    "Fig_2_4_canales_HSV.png",
+    "Fig_2_5_canales_CIELAB.png",
+    "Fig_2_6_histogramas.png",
+    "Fig_2_7_color_por_clase.png",
+    "Fig_2_8_fotogramas_consecutivos.png"
+  ]
+}

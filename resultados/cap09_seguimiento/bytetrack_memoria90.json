@@ -1,0 +1,1 @@
+{"fps": 18.930161345809793, "segundos": 31.894313097000122, "configuracion": {"tracker_type": "bytetrack", "track_high_thresh": 0.25, "track_low_thresh": 0.1, "new_track_thresh": 0.25, "track_buffer": 90, "match_thresh": 0.8, "fuse_score": true}, "conf": 0.25, "gpu": "NVIDIA L4"}

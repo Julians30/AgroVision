@@ -1,0 +1,20 @@
+# Datos, videos y pesos: no van al repositorio
+*.pt
+*.pth
+*.onnx
+*.zip
+*.mp4
+*.avi
+*.mov
+datasets/
+data/
+runs/
+01_DATOS_ORIGINALES/
+02_DATOS_PROCESADOS/
+00_ZENODO_ORIGINAL/
+01_DATASET_PIO/
+# Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store

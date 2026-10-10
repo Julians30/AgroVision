@@ -1,0 +1,6 @@
+,Inmaduro,Maduro,Sobremaduro,Dañado,Vacío
+Inmaduro,0.0,13.5,14.4,12.3,10.0
+Maduro,13.5,0.0,3.0,13.2,4.8
+Sobremaduro,14.4,3.0,0.0,12.6,4.5
+Dañado,12.3,13.2,12.6,0.0,9.9
+Vacío,10.0,4.8,4.5,9.9,0.0

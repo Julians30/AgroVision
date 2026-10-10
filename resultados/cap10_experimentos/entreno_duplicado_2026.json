@@ -1,0 +1,9 @@
+{
+ "clave": "duplicado_2026",
+ "conjunto": "duplicado",
+ "semilla": 2026,
+ "minutos": 2.37,
+ "epocas": 29,
+ "val_f1": 0.9492517006802721,
+ "radio_medio": null
+}
