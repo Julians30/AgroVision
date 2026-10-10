@@ -3,8 +3,9 @@ message: "Si usa este material, cítelo como se indica."
 title: "AgroVisión: del píxel a la decisión. Material complementario"
 type: software
 authors:
-  - family-names: "PENDIENTE"
-    given-names: "PENDIENTE"
+  - family-names: "Coronel Reyes"
+    given-names: "Julian"
+    affiliation: "Universidad Técnica de Machala"
 repository-code: "https://github.com/Julians30/AgroVision"
 license: AGPL-3.0-or-later
 version: "1.0.0"

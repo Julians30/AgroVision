@@ -2,6 +2,8 @@
 
 **Material complementario y paquete de reproducibilidad** del libro *AgroVisión: del píxel a la decisión. Procesamiento digital de imágenes y visión artificial aplicada a la producción agropecuaria*.
 
+**Autor:** Julian Coronel Reyes · Universidad Técnica de Machala (Ecuador)
+
 [![Licencia: AGPL v3](https://img.shields.io/badge/c%C3%B3digo-AGPL--3.0-blue.svg)](LICENSE)
 [![Textos y figuras: CC BY 4.0](https://img.shields.io/badge/textos%20y%20figuras-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.es)
 
@@ -165,7 +167,7 @@ El uso de sistemas de este tipo para calificar producto, liquidar pagos o vigila
 
 Si utiliza este material, cite el libro y el repositorio. Los metadatos están en [CITATION.cff](CITATION.cff); GitHub genera la cita en el botón «Cite this repository».
 
-> *AgroVisión: del píxel a la decisión. Material complementario* (versión 1.0.0) [Software y datos]. GitHub. https://github.com/Julians30/AgroVision
+> Coronel Reyes, J. (2026). *AgroVisión: del píxel a la decisión. Material complementario* (Versión 1.0.0) [Software y datos]. GitHub. https://github.com/Julians30/AgroVision
 
 Cite también los conjuntos de datos originales.
 
