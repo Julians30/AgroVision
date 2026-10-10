@@ -5,7 +5,8 @@ type: software
 authors:
   - family-names: "Coronel Reyes"
     given-names: "Julian"
-    affiliation: "Universidad Técnica de Machala"
+    affiliation: "Universidad Técnica de Machala, Facultad de Ciencias Agropecuarias, Carrera de Agropecuaria"
+    email: "jcoronel1@utmachala.edu.ec"
 repository-code: "https://github.com/Julians30/AgroVision"
 license: AGPL-3.0-or-later
 version: "1.0.0"
