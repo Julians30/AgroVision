@@ -1,0 +1,21 @@
+name: Auditoría de materiales AgroVisión
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  audit-materials:
+    name: Verificar archivos académicos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Revisar notebooks, archivos y metadatos
+        run: python guiones/verificar_repositorio.py
