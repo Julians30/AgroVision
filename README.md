@@ -6,8 +6,12 @@
 Carrera de Agropecuaria, Facultad de Ciencias Agropecuarias, Universidad Técnica de Machala (Ecuador)  
 Correspondencia: [jcoronel1@utmachala.edu.ec](mailto:jcoronel1@utmachala.edu.ec)  
 
-[![Licencia: AGPL v3](https://img.shields.io/badge/c%C3%B3digo-AGPL--3.0-blue.svg)](LICENSE)
-[![Textos y figuras: CC BY 4.0](https://img.shields.io/badge/textos%20y%20figuras-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.es)
+[![Auditoría de materiales](https://github.com/Julians30/AgroVision/actions/workflows/auditoria-agrovision.yml/badge.svg?branch=main)](https://github.com/Julians30/AgroVision/actions/workflows/auditoria-agrovision.yml)
+[![Licencia del código: AGPL-3.0](https://img.shields.io/badge/C%C3%B3digo-AGPL--3.0-blue.svg)](LICENSE)
+[![Textos y figuras: CC BY 4.0](https://img.shields.io/badge/Textos%20y%20figuras-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.es)
+![Python](https://img.shields.io/badge/Lenguaje-Python-3776AB?logo=python&logoColor=white)
+
+La insignia de auditoría comprueba la estructura de los notebooks y la disponibilidad de materiales publicados; **no reentrena modelos ni verifica por sí sola los resultados experimentales**.
 
 ---
 
